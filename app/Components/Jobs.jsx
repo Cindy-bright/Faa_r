@@ -96,7 +96,7 @@ const Jobs = () => {
         {Data.map((job) => (
           <div
             key={job.id}
-            className="group group/item singleJob w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-blueColor shadow-lg shadow-grayIsh400/700 hover:shadow-lg"
+            className="group group/item singleJob w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-blueColor shadow-lg shadow-grayIsh400/700 hover:shadow-lg cursor-pointer"
           >
             <span className="flex just-between items-center gap-4">
               <h1 className="text-[16px] font-semibold text-textColor group-hover:text-white">
@@ -117,10 +117,10 @@ const Jobs = () => {
               </span>
             </div>
             <div className="flex justify-between items-center">
-              <button className="border-[3px] rounded-[10px] p-[5px] w-[100px] text-[12px] semibold text-textColor hover:bg-white group-hover/ item:text-textColor group-hover:text-white">
+              <button className="border-[4px] rounded-[10px] p-[5px] w-[100px] text-[12px] semibold text-textColor hover:bg-black group-hover/ item:text-textColor group-hover:text-white">
                 Show Details
               </button>
-              <button className="border-[3px] rounded-[10px] p-[5px] w-[100px] text-[12px] semibold text-textColor hover:bg-white group-hover/ item:text-textColor group-hover:text-white">
+              <button className="border-[4px] rounded-[10px] p-[5px] w-[100px] text-[12px] semibold text-textColor hover:bg-black group-hover/ item:text-textColor group-hover:text-white">
                 Apply Now
               </button>
             </div>
