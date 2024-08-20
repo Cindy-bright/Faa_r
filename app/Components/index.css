@@ -9,8 +9,12 @@
 }
 
 body {
+<<<<<<< HEAD
   background: white;
   background-color: white;
+=======
+  background: #F1F4F8;
+>>>>>>> 624a6483579abf1f5703f0963f13a18a6a7167fd
 }
 
 li {
